@@ -1,7 +1,9 @@
 body {
     font-family: 'Bitter', serif;
+font-family: 'Oxygen', sans-serif;
+    font-style: normal;
     font-size: 16px;
-    font-weight: 400;
+    font-weight: 400; 
     text-align: left;
     margin: 0;
 }
@@ -34,17 +36,17 @@ nav ul {
 nav a {
     font-size: 1.3rem;
     text-decoration: none;
-    color: #8c7379;
+    color: white;
     font-weight: 700;
     display: block;
     padding: .83rem 2rem;
 }
 nav li.here a{
-    background-color: #eaeaea;
-        color: #8c7379;
+    background-color: #8c7379;
+        color: white;
 }
 nav a:hover {
-    color: #eaeaea;
+    color: #63a7bf;
 }
 
 /* Stuff for the Main */
@@ -59,7 +61,7 @@ main h2 {
     margin-bottom: .2rem;
 }
 main p {
-    color: #8c7379;
+    color: #525957;
     margin: 0 0 .3rem 0;
 }
 
@@ -73,7 +75,7 @@ main dl dt {
     font-weight: 700;
 }
 main dl dd {
-    color: #664744;
+    color: #525957;
     font-size: .9rem
 }
 
@@ -99,17 +101,17 @@ main a {
     color: #664744;
 }
 main a:hover {
-    color: #eaeaea;
+    color: #73868c;
 }
 
 /* Footer Stuff Here */
 footer {
     background-color: #73868c;
     text-align: center;
-    color: #664744;
+    color: white;
     padding: 1rem 0;
     font-size: .8rem;
 }
 footer a {
-    color: #664744;
+    color: white;
 }
