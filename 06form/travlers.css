@@ -1,0 +1,192 @@
+body {
+    font-family: 'Bitter', serif;
+font-family: 'Oxygen', sans-serif;
+    font-style: normal;
+    font-size: 16px;
+    font-weight: 400; 
+    text-align: left;
+    margin: 0;
+}
+
+/* Header Stuff Here */
+header { 
+background-color: #73868c;
+padding: 1rem 3vw;
+}
+header h1 {
+    margin: 0;
+    color: white;
+}
+header p {
+    margin: 0;
+    color: white;
+    letter-spacing: .4px;
+}
+
+/* Nav Stuff Here */
+nav {
+    background-color: #525957;
+}
+nav ul {
+    list-style-type: none;
+    padding: 0 3vw;
+    margin: 0;
+    display: flex;
+}
+nav a {
+    font-size: 1.3rem;
+    text-decoration: none;
+    color: white;
+    font-weight: 700;
+    display: block;
+    padding: .83rem 2rem;
+}
+nav li.here a{
+    background-color: #8c7379;
+        color: white;
+}
+nav a:hover {
+    color: #63a7bf;
+}
+
+/* Stuff for the Main */
+main {
+    padding: 1rem 2vw;
+}
+main h1 {
+    color: #63a7bf;
+}
+main h2 {
+    color: #664744;
+    margin-bottom: .2rem;
+}
+main p {
+    color: #525957;
+    margin: 0 0 .3rem 0;
+}
+
+main ol {
+    padding: .5rem 3vw;
+    background-color: #efefef;
+}
+
+main dl dt {
+    color: #63a7bf;
+    font-weight: 700;
+}
+main dl dd {
+    color: #525957;
+    font-size: .9rem
+}
+
+main ul {
+    list-style-type: circle;
+}
+main ul li {
+    line-height: 125%;
+    margin-bottom: .5rem;
+    font-size: .9rem;
+}
+
+main address {
+    font-style: normal;
+    background-color: #eaeaea;
+    padding: .5rem;
+    width: 12.5rem;
+    border: 1px solid #525957;
+    border-radius: .5rem;
+}
+
+main a {
+    color: #664744;
+}
+main a:hover {
+    color: #73868c;
+}
+
+figure.active {
+    width: 30%;
+    margin: 0 0 0 2%;
+    float: right;
+}
+figure.active img {
+    width: 100%;
+    height: auto;
+}
+
+div.gallery {
+    display: flex;
+    flex-wrap: wrap;
+}
+div.gallery figure {
+    margin: .5rem 2% 0 0;
+}
+div.gallery figcaption {
+    text-align: center;
+    font-size: .8rem;
+    background-color: #73868c;
+    color: white;
+}
+
+.Form fieldset {
+    border: 1px solid #8c7379;
+    border-radius: 3px;
+    margin-bottom: 1rem;
+}
+.Form legend {
+    color: #8c7379;
+    font-size: .8rem;
+}
+.Form label{
+    margin: .5rem;
+}
+
+.Form label, .Form select, .Form [type=text], .Form [type=tel], .Form [type=email], .Form textarea {
+    display: block;
+}
+
+.Form [type=text], .Form [type=tel],.Form [type=email], .Form select, .Form textarea
+{
+    border: solid 1px #664744;
+    padding: .3rem;
+    width: 250px;
+    border-radius: .3rem;
+    font-family: 'Bitter', serif;
+    font-family: 'Oxygen', sans-serif;
+    font-weight: 400;
+}
+.Form textarea {
+    height: 6rem;
+}
+.Form [type=email]{
+   background-color: rgba(99,167,191,0.1); 
+}
+
+.Form :required {
+    background-color: rgba(99,167,191,0.1);
+}
+
+.Form [type=submit] {
+    background-color: #664744;
+    border: none;
+    padding: 1rem 2rem;
+    border-radius: 10px;
+    color: white;
+    margin: 1rem 0 0 1vw;
+}
+
+    
+
+/* Footer Stuff Here */
+footer { 
+    clear:both;
+    background-color: #73868c;
+    text-align: center;
+    color: white;
+    padding: 1rem 0;
+    font-size: .8rem;
+    }
+  
+footer a {
+    color: white;
+}

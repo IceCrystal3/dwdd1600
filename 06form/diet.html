@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <title>Run4Life: Home</title>
+        <link rel="stylesheet" href="travlers.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Bitter:wght@400;700&display=swap" rel="stylesheet">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta charset="UTF-8">
+        <meta name="description" content="Learn about the history and benefits of running">
+        <meta name="author" content="Sarah Winters">
+    </head>
+    <body>
+        <!-- Start of page header -->
+        <header>
+            <h1>Run4Life</h1>
+            <p>Know the importance of running</p>
+        </header>
+        <!--Start of the page navagation -->
+        <nav>
+            <ul>
+                <li><a href="index.html">History of Running</a></li>
+                <li><a href="benefits.html">Benefits of Running</a></li>
+                <li><a href="beginning.html">Beginning</a></li>
+                <li class="here"><a href="#diet.html">Request Diet Foods</a></li>
+            </ul>
+        </nav>
+        <!-- Start of page content -->
+        <main>
+        <h1>Request Foods for a Diet</h1>
+            <form method="get" class="Form" action="thanks.html">
+                
+            <fieldset>
+            <legend>Customer Information</legend>  
+            <label>First Name*<input type="text" name="fname" required></label>
+            <label>Last Name*<input type="text" name="lname" required></label>
+            <label>First Name*<input type="tel" name="phone" required placeholder="123-456-7777"></label>
+            <label>Email<input type="email" name="email"></label>
+            </fieldset>   
+                
+            <fieldset>
+            <legend>Delivery Options</legend>
+            <label><input type="radio" name="method" value="mail delivery">Mail Delivery (1-2days)</label>
+            <label><input type="radio" name="method" value="plane delivery">Plane Delivery (2hrs)</label>
+            <label><input type="radio" name="method" value="pickup">Pickup (3hrs)</label>  
+            </fieldset>
+                
+            <fieldset>
+            <legend>Delivery Areas</legend>
+            <label><input type="checkbox" name="doorway" value="chosen"> Front Door</label>
+            <label><input type="checkbox" name="back" value="chosen"> Back Door</label>
+            <label><input type="checkbox" name="garage" value="chosen"> Inside the Garage</label>
+            <label><input type="checkbox" name="cooler" value="chosen"> Inside the Cooler</label>
+                
+            <label>Preferred Delivery Time
+            <select name="time">
+            <option value="none">Please Select</option>   
+            <option value="morning">Between 8:00am and 11:00am</option>
+            <option value="morning">Between 11:00am and 2:00pm</option>   
+            <option value="morning">Between 2:00pm and 5:00pm</option>    
+            <option value="morning">Between 5:00pm and 7:00pm</option>
+            </select></label>    
+            </fieldset>
+            
+            <label>Comments
+                <textarea></textarea></label>
+                
+                
+            
+            <input type="submit" value="Send Food Request">
+            </form>
+  
+        </main>
+        <!-- Start of the page footer -->
+        <footer>
+        <p>&copy; 2023 &bull; Sarah Winters &bull; <a href="mailto:sarahwin02@gmail.com">Email Us</a></p>
+        </footer>
+    
+    </body>
+</html>
